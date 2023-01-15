@@ -50,4 +50,4 @@ with open("AbGold.csv", "a", newline="") as f:
     fieldnames = ["seller", "stock", "date", "time", "change"]
     writer= csv.DictWriter(f, fieldnames=fieldnames)
     writer.writerow(asdict(monitoreo))
-    print("Search Done")
+    print("Search Done waiting for next update")
