@@ -29,7 +29,7 @@ def last_stock_value():
     
 url = "https://www.g2g.com/offer/Area-52--US----Horde?service_id=lgc_service_1&brand_id=lgc_game_2299&region_id=dfced32f-2f0a-4df5-a218-1e068cfadffa&fa=lgc_2299_platform%3Algc_2299_platform_40012"
 
-resp = httpx.get(url=url, timeout=10)
+resp = httpx.get(url=url, timeout=15)
 tree = HTMLParser(resp.text)
 
 stock = tree.css('div.offers-bottom-attributes.offer__content-lower-items span')[1].text().replace("K", "")
