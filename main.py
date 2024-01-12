@@ -4,8 +4,6 @@ import csv
 import time
 from datetime import datetime
 from dataclasses import dataclass, asdict
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
 
 @dataclass
 class Seller:
