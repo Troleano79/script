@@ -57,8 +57,6 @@ server_lst = [["https://www.g2g.com/offer/Area-52--US----Horde?service_id=lgc_se
               ["https://www.g2g.com/offer/Tichondrius--US----Horde?service_id=lgc_service_1&brand_id=lgc_game_2299&region_id=dfced32f-2f0a-4df5-a218-1e068cfadffa&fa=lgc_2299_platform%3Algc_2299_platform_40418", 'Tich', 'VegoStore'],
               ["https://www.g2g.com/offer/Mal-Ganis--US----Horde?service_id=lgc_service_1&brand_id=lgc_game_2299&region_id=dfced32f-2f0a-4df5-a218-1e068cfadffa&fa=lgc_2299_platform%3Algc_2299_platform_40276", "Mal'Ganis", 'CatDog']]
     
-# url = "https://www.g2g.com/offer/Area-52--US----Horde?service_id=lgc_service_1&brand_id=lgc_game_2299&region_id=dfced32f-2f0a-4df5-a218-1e068cfadffa&fa=lgc_2299_platform%3Algc_2299_platform_40012"
-
 
 for each in server_lst:
     data = scrape_data(each[0], each[2])
